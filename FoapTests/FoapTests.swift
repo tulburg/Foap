@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import Apollo
 @testable import Foap
 
 final class FoapTests: XCTestCase {
@@ -16,14 +17,39 @@ final class FoapTests: XCTestCase {
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
+        UserDefaults.standard.removeObject(forKey: countryPopulationMap)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testApolloEndpoint() throws {
+        lazy var apollo = ApolloClient(url: URL(string: apolloEndPoint)!)
+        
+        apollo.fetch(query: CountriesQuery()) { result, error in
+            XCTAssert(error == nil)
+            XCTAssert(result != nil)
+            XCTAssert(result?.data != nil)
+            XCTAssert(result?.data?.item != nil)
+        }
+    }
+    
+    func testPopulationCorrectDecode() throws {
+        let request = Linker(path: "Poland") { data, response, error in
+            XCTAssert(error == nil)
+            let responseData = PopulationResponse(data!.json() as NSDictionary)
+            XCTAssert(responseData.data!.count > 0)
+            XCTAssert((responseData.data![0].name != nil))
+            XCTAssert((responseData.data![0].population != nil))
+            
+        }
+    }
+    
+    func testCacheManagerStorage() throws {
+        lazy var cacheManager = CountryCacheManager.shared()
+        
+        cacheManager?.saveCountry(withCode: "TEST", population: 100)
+        let population = cacheManager?.getCountryWithCode("TEST")
+        XCTAssertTrue(population == 100)
+        
     }
 
     func testPerformanceExample() throws {

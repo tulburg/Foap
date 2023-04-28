@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57752D944B965DF9D8005FE1 /* Pods_FoapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE450D6B768AEAAC69A5B8F1 /* Pods_FoapTests.framework */; };
+		BE81213A6740A7AB3AEC2E5D /* Pods_Foap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6FC6054006C67A1632B155 /* Pods_Foap.framework */; };
+		CE04CF01443CAAF815F27354 /* Pods_Foap_FoapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906AF8841DA72CA8DD5E8C4A /* Pods_Foap_FoapUITests.framework */; };
+		DF25B78429FB1F8F0060FF6F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = DF25B78329FB1F8F0060FF6F /* Constants.m */; };
+		DF25B78729FB26A70060FF6F /* PopulationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25B78629FB26A70060FF6F /* PopulationResponse.swift */; };
+		DF25B78A29FB31270060FF6F /* NSDictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25B78929FB31270060FF6F /* NSDictionary+Extensions.swift */; };
+		DF25B78D29FB317D0060FF6F /* ResponseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25B78C29FB317D0060FF6F /* ResponseProtocol.swift */; };
+		DF25B78F29FB33190060FF6F /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25B78E29FB33190060FF6F /* Data+Extensions.swift */; };
+		DF25B79129FB34F50060FF6F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25B79029FB34F50060FF6F /* UIColor+Extensions.swift */; };
+		DF25B79329FB36520060FF6F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25B79229FB36520060FF6F /* NavigationController.swift */; };
 		DF4DFD0329FAC3CD0030BBF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DFD0229FAC3CD0030BBF0 /* AppDelegate.swift */; };
 		DF4DFD0529FAC3CD0030BBF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DFD0429FAC3CD0030BBF0 /* SceneDelegate.swift */; };
 		DF4DFD0729FAC3CD0030BBF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DFD0629FAC3CD0030BBF0 /* ViewController.swift */; };
@@ -17,6 +27,23 @@
 		DF4DFD1D29FAC3CF0030BBF0 /* FoapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DFD1C29FAC3CF0030BBF0 /* FoapTests.swift */; };
 		DF4DFD2729FAC3CF0030BBF0 /* FoapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DFD2629FAC3CF0030BBF0 /* FoapUITests.swift */; };
 		DF4DFD2929FAC3CF0030BBF0 /* FoapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DFD2829FAC3CF0030BBF0 /* FoapUITestsLaunchTests.swift */; };
+		DF4DFD4729FAD0550030BBF0 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = DF4DFD4629FAD0550030BBF0 /* schema.json */; };
+		DF4DFDD429FAE7790030BBF0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DFDD329FAE7790030BBF0 /* API.swift */; };
+		DF4DFDDE29FB1ECB0030BBF0 /* Linker.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4DFDDD29FB1ECB0030BBF0 /* Linker.m */; };
+		DFEB053E29FB97C4007F7DFD /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB053D29FB97C4007F7DFD /* CountryViewController.swift */; };
+		DFEB054029FB97F8007F7DFD /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB053F29FB97F8007F7DFD /* CountryViewModel.swift */; };
+		DFEB054229FB9950007F7DFD /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB054129FB9950007F7DFD /* Country.swift */; };
+		DFEB054529FBA232007F7DFD /* CountryCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEB054429FBA232007F7DFD /* CountryCacheManager.m */; };
+		DFEB054729FBA9C8007F7DFD /* CountryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB054629FBA9C8007F7DFD /* CountryTableCell.swift */; };
+		DFEB054929FBAAAF007F7DFD /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB054829FBAAAF007F7DFD /* UIView+Extensions.swift */; };
+		DFEB054B29FBAB05007F7DFD /* UIView+ConstrainType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB054A29FBAB05007F7DFD /* UIView+ConstrainType.swift */; };
+		DFEB054D29FBAB2F007F7DFD /* UIView+ConstrainChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB054C29FBAB2F007F7DFD /* UIView+ConstrainChain.swift */; };
+		DFEB054F29FBAB90007F7DFD /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB054E29FBAB90007F7DFD /* UILabel+Extensions.swift */; };
+		DFEB055229FBAE4B007F7DFD /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB055129FBAE4B007F7DFD /* AlertViewController.swift */; };
+		DFEB055429FBB10E007F7DFD /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB055329FBB10E007F7DFD /* AlertView.swift */; };
+		DFEB055729FBD139007F7DFD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB055629FBD139007F7DFD /* DetailViewController.swift */; };
+		DFEB055929FBD5F0007F7DFD /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB055829FBD5F0007F7DFD /* DetailCell.swift */; };
+		DFEB055D29FBE110007F7DFD /* countries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = DFEB055C29FBE110007F7DFD /* countries.graphql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +64,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E6FC6054006C67A1632B155 /* Pods_Foap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A556592623601BC1FD6F95 /* Pods-FoapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoapTests.debug.xcconfig"; path = "Target Support Files/Pods-FoapTests/Pods-FoapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5971BBCF561BBA5082BD4A38 /* Pods-Foap-FoapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foap-FoapUITests.release.xcconfig"; path = "Target Support Files/Pods-Foap-FoapUITests/Pods-Foap-FoapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		906AF8841DA72CA8DD5E8C4A /* Pods_Foap_FoapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foap_FoapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E4DCA9D9BE2F87AD6E819D /* Pods-Foap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foap.release.xcconfig"; path = "Target Support Files/Pods-Foap/Pods-Foap.release.xcconfig"; sourceTree = "<group>"; };
+		AC5471125696C9C171CA80B1 /* Pods-FoapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoapTests.release.xcconfig"; path = "Target Support Files/Pods-FoapTests/Pods-FoapTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE450D6B768AEAAC69A5B8F1 /* Pods_FoapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8B3B829CD626C36FDA4566 /* Pods-Foap-FoapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foap-FoapUITests.debug.xcconfig"; path = "Target Support Files/Pods-Foap-FoapUITests/Pods-Foap-FoapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF25B78329FB1F8F0060FF6F /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		DF25B78629FB26A70060FF6F /* PopulationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationResponse.swift; sourceTree = "<group>"; };
+		DF25B78929FB31270060FF6F /* NSDictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extensions.swift"; sourceTree = "<group>"; };
+		DF25B78C29FB317D0060FF6F /* ResponseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseProtocol.swift; sourceTree = "<group>"; };
+		DF25B78E29FB33190060FF6F /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		DF25B79029FB34F50060FF6F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		DF25B79229FB36520060FF6F /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		DF4DFCFF29FAC3CD0030BBF0 /* Foap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4DFD0229FAC3CD0030BBF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4DFD0429FAC3CD0030BBF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +93,27 @@
 		DF4DFD2229FAC3CF0030BBF0 /* FoapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4DFD2629FAC3CF0030BBF0 /* FoapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoapUITests.swift; sourceTree = "<group>"; };
 		DF4DFD2829FAC3CF0030BBF0 /* FoapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF4DFD4629FAD0550030BBF0 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = schema.json; path = Foap/Apollo/schema.json; sourceTree = SOURCE_ROOT; };
+		DF4DFDD329FAE7790030BBF0 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		DF4DFDDB29FB1E9F0030BBF0 /* Linker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Linker.h; sourceTree = "<group>"; };
+		DF4DFDDC29FB1ECA0030BBF0 /* Foap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foap-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF4DFDDD29FB1ECB0030BBF0 /* Linker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Linker.m; sourceTree = "<group>"; };
+		DFEB053D29FB97C4007F7DFD /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		DFEB053F29FB97F8007F7DFD /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		DFEB054129FB9950007F7DFD /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		DFEB054329FBA214007F7DFD /* CountryCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryCacheManager.h; sourceTree = "<group>"; };
+		DFEB054429FBA232007F7DFD /* CountryCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryCacheManager.m; sourceTree = "<group>"; };
+		DFEB054629FBA9C8007F7DFD /* CountryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableCell.swift; sourceTree = "<group>"; };
+		DFEB054829FBAAAF007F7DFD /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DFEB054A29FBAB05007F7DFD /* UIView+ConstrainType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ConstrainType.swift"; sourceTree = "<group>"; };
+		DFEB054C29FBAB2F007F7DFD /* UIView+ConstrainChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ConstrainChain.swift"; sourceTree = "<group>"; };
+		DFEB054E29FBAB90007F7DFD /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		DFEB055129FBAE4B007F7DFD /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		DFEB055329FBB10E007F7DFD /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		DFEB055629FBD139007F7DFD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DFEB055829FBD5F0007F7DFD /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		DFEB055C29FBE110007F7DFD /* countries.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.graphql; sourceTree = "<group>"; };
+		FAB1F8213EA5DE4F9B0F187C /* Pods-Foap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foap.debug.xcconfig"; path = "Target Support Files/Pods-Foap/Pods-Foap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE81213A6740A7AB3AEC2E5D /* Pods_Foap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57752D944B965DF9D8005FE1 /* Pods_FoapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +137,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE04CF01443CAAF815F27354 /* Pods_Foap_FoapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8252688367CE0AD4A197C944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1F8213EA5DE4F9B0F187C /* Pods-Foap.debug.xcconfig */,
+				91E4DCA9D9BE2F87AD6E819D /* Pods-Foap.release.xcconfig */,
+				BA8B3B829CD626C36FDA4566 /* Pods-Foap-FoapUITests.debug.xcconfig */,
+				5971BBCF561BBA5082BD4A38 /* Pods-Foap-FoapUITests.release.xcconfig */,
+				48A556592623601BC1FD6F95 /* Pods-FoapTests.debug.xcconfig */,
+				AC5471125696C9C171CA80B1 /* Pods-FoapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF25B78529FB26840060FF6F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				DF25B78629FB26A70060FF6F /* PopulationResponse.swift */,
+				DFEB054129FB9950007F7DFD /* Country.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		DF25B78829FB31110060FF6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF25B78929FB31270060FF6F /* NSDictionary+Extensions.swift */,
+				DF25B78E29FB33190060FF6F /* Data+Extensions.swift */,
+				DF25B79029FB34F50060FF6F /* UIColor+Extensions.swift */,
+				DFEB054829FBAAAF007F7DFD /* UIView+Extensions.swift */,
+				DFEB054A29FBAB05007F7DFD /* UIView+ConstrainType.swift */,
+				DFEB054C29FBAB2F007F7DFD /* UIView+ConstrainChain.swift */,
+				DFEB054E29FBAB90007F7DFD /* UILabel+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF25B78B29FB31570060FF6F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DF25B78C29FB317D0060FF6F /* ResponseProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		DF4DFCF629FAC3CD0030BBF0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +195,8 @@
 				DF4DFD1B29FAC3CF0030BBF0 /* FoapTests */,
 				DF4DFD2529FAC3CF0030BBF0 /* FoapUITests */,
 				DF4DFD0029FAC3CD0030BBF0 /* Products */,
+				DF4DFD7729FAD9680030BBF0 /* Frameworks */,
+				8252688367CE0AD4A197C944 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +213,16 @@
 		DF4DFD0129FAC3CD0030BBF0 /* Foap */ = {
 			isa = PBXGroup;
 			children = (
-				DF4DFD0229FAC3CD0030BBF0 /* AppDelegate.swift */,
-				DF4DFD0429FAC3CD0030BBF0 /* SceneDelegate.swift */,
-				DF4DFD0629FAC3CD0030BBF0 /* ViewController.swift */,
+				DFEB055529FBD10F007F7DFD /* DetailView */,
+				DFEB055029FBAE35007F7DFD /* AlertViews */,
+				DFEB053C29FB9791007F7DFD /* CountryViews */,
+				DF25B78B29FB31570060FF6F /* Protocols */,
+				DF25B78829FB31110060FF6F /* Extensions */,
+				DF25B78529FB26840060FF6F /* Objects */,
+				DF4DFDDA29FB1E870030BBF0 /* Utilities */,
+				DF4DFDD829FB1DD50030BBF0 /* Apollo */,
+				DF4DFDD729FB1DBC0030BBF0 /* Delegates */,
+				DF4DFDD929FB1DF40030BBF0 /* SharedController */,
 				DF4DFD0829FAC3CD0030BBF0 /* Main.storyboard */,
 				DF4DFD0E29FAC3CF0030BBF0 /* Assets.xcassets */,
 				DF4DFD1029FAC3CF0030BBF0 /* LaunchScreen.storyboard */,
@@ -130,6 +249,85 @@
 			path = FoapUITests;
 			sourceTree = "<group>";
 		};
+		DF4DFD7729FAD9680030BBF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E6FC6054006C67A1632B155 /* Pods_Foap.framework */,
+				906AF8841DA72CA8DD5E8C4A /* Pods_Foap_FoapUITests.framework */,
+				AE450D6B768AEAAC69A5B8F1 /* Pods_FoapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4DFDD729FB1DBC0030BBF0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DFD0229FAC3CD0030BBF0 /* AppDelegate.swift */,
+				DF4DFD0429FAC3CD0030BBF0 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		DF4DFDD829FB1DD50030BBF0 /* Apollo */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB055C29FBE110007F7DFD /* countries.graphql */,
+				DF4DFDD329FAE7790030BBF0 /* API.swift */,
+				DF4DFD4629FAD0550030BBF0 /* schema.json */,
+			);
+			path = Apollo;
+			sourceTree = "<group>";
+		};
+		DF4DFDD929FB1DF40030BBF0 /* SharedController */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DFD0629FAC3CD0030BBF0 /* ViewController.swift */,
+				DF25B79229FB36520060FF6F /* NavigationController.swift */,
+			);
+			path = SharedController;
+			sourceTree = "<group>";
+		};
+		DF4DFDDA29FB1E870030BBF0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DF4DFDDB29FB1E9F0030BBF0 /* Linker.h */,
+				DF4DFDDD29FB1ECB0030BBF0 /* Linker.m */,
+				DF4DFDDC29FB1ECA0030BBF0 /* Foap-Bridging-Header.h */,
+				DF25B78329FB1F8F0060FF6F /* Constants.m */,
+				DFEB054329FBA214007F7DFD /* CountryCacheManager.h */,
+				DFEB054429FBA232007F7DFD /* CountryCacheManager.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DFEB053C29FB9791007F7DFD /* CountryViews */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB053D29FB97C4007F7DFD /* CountryViewController.swift */,
+				DFEB053F29FB97F8007F7DFD /* CountryViewModel.swift */,
+				DFEB054629FBA9C8007F7DFD /* CountryTableCell.swift */,
+			);
+			path = CountryViews;
+			sourceTree = "<group>";
+		};
+		DFEB055029FBAE35007F7DFD /* AlertViews */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB055129FBAE4B007F7DFD /* AlertViewController.swift */,
+				DFEB055329FBB10E007F7DFD /* AlertView.swift */,
+			);
+			path = AlertViews;
+			sourceTree = "<group>";
+		};
+		DFEB055529FBD10F007F7DFD /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB055629FBD139007F7DFD /* DetailViewController.swift */,
+				DFEB055829FBD5F0007F7DFD /* DetailCell.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF4DFD2C29FAC3CF0030BBF0 /* Build configuration list for PBXNativeTarget "Foap" */;
 			buildPhases = (
+				DFDADDA0882E2770E1E2BB79 /* [CP] Check Pods Manifest.lock */,
+				DF4DFDD229FAE2AB0030BBF0 /* General GRAPHQL API */,
 				DF4DFCFB29FAC3CD0030BBF0 /* Sources */,
 				DF4DFCFC29FAC3CD0030BBF0 /* Frameworks */,
 				DF4DFCFD29FAC3CD0030BBF0 /* Resources */,
+				B648A9978A7A7CF303B9BDE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +355,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF4DFD2F29FAC3CF0030BBF0 /* Build configuration list for PBXNativeTarget "FoapTests" */;
 			buildPhases = (
+				D437F592AD009C7E27AB52E7 /* [CP] Check Pods Manifest.lock */,
 				DF4DFD1429FAC3CF0030BBF0 /* Sources */,
 				DF4DFD1529FAC3CF0030BBF0 /* Frameworks */,
 				DF4DFD1629FAC3CF0030BBF0 /* Resources */,
@@ -172,9 +374,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF4DFD3229FAC3CF0030BBF0 /* Build configuration list for PBXNativeTarget "FoapUITests" */;
 			buildPhases = (
+				D192DF9D1FC1D90B1AF9135B /* [CP] Check Pods Manifest.lock */,
 				DF4DFD1E29FAC3CF0030BBF0 /* Sources */,
 				DF4DFD1F29FAC3CF0030BBF0 /* Frameworks */,
 				DF4DFD2029FAC3CF0030BBF0 /* Resources */,
+				C88697FB1D665024C6291DDC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,6 +402,7 @@
 				TargetAttributes = {
 					DF4DFCFE29FAC3CD0030BBF0 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 					DF4DFD1729FAC3CF0030BBF0 = {
 						CreatedOnToolsVersion = 14.3;
@@ -234,6 +439,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4DFD4729FAD0550030BBF0 /* schema.json in Resources */,
+				DFEB055D29FBE110007F7DFD /* countries.graphql in Resources */,
 				DF4DFD1229FAC3CF0030BBF0 /* LaunchScreen.storyboard in Resources */,
 				DF4DFD0F29FAC3CF0030BBF0 /* Assets.xcassets in Resources */,
 				DF4DFD0A29FAC3CD0030BBF0 /* Main.storyboard in Resources */,
@@ -256,6 +463,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B648A9978A7A7CF303B9BDE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foap/Pods-Foap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foap/Pods-Foap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foap/Pods-Foap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88697FB1D665024C6291DDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foap-FoapUITests/Pods-Foap-FoapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foap-FoapUITests/Pods-Foap-FoapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foap-FoapUITests/Pods-Foap-FoapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D192DF9D1FC1D90B1AF9135B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foap-FoapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D437F592AD009C7E27AB52E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4DFDD229FAE2AB0030BBF0 /* General GRAPHQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "General GRAPHQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and go back up to where SPM keeps the apollo iOS framework checked out.\n\ncd \"${BUILT_PRODUCTS_DIR}\"\n\ncd \"Apollo/Apollo.framework\"\n\nAPOLLO_SCRIPT_PATH=\"$(pwd)\"\n\nif [ -z \"${APOLLO_SCRIPT_PATH}\" ]; then\n    echo \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}/Apollo/\"\n\"${APOLLO_SCRIPT_PATH}\"/check-and-run-apollo-cli.sh codegen:generate --target=swift --schema=schema.json API.swift\n\n\n";
+		};
+		DFDADDA0882E2770E1E2BB79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF4DFCFB29FAC3CD0030BBF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,8 +591,30 @@
 			files = (
 				DF4DFD0729FAC3CD0030BBF0 /* ViewController.swift in Sources */,
 				DF4DFD0329FAC3CD0030BBF0 /* AppDelegate.swift in Sources */,
+				DFEB055929FBD5F0007F7DFD /* DetailCell.swift in Sources */,
+				DFEB055729FBD139007F7DFD /* DetailViewController.swift in Sources */,
+				DFEB054F29FBAB90007F7DFD /* UILabel+Extensions.swift in Sources */,
+				DF25B78D29FB317D0060FF6F /* ResponseProtocol.swift in Sources */,
 				DF4DFD0529FAC3CD0030BBF0 /* SceneDelegate.swift in Sources */,
+				DFEB055429FBB10E007F7DFD /* AlertView.swift in Sources */,
 				DF4DFD0D29FAC3CD0030BBF0 /* Foap.xcdatamodeld in Sources */,
+				DFEB053E29FB97C4007F7DFD /* CountryViewController.swift in Sources */,
+				DF4DFDDE29FB1ECB0030BBF0 /* Linker.m in Sources */,
+				DF25B78729FB26A70060FF6F /* PopulationResponse.swift in Sources */,
+				DFEB054B29FBAB05007F7DFD /* UIView+ConstrainType.swift in Sources */,
+				DF25B79129FB34F50060FF6F /* UIColor+Extensions.swift in Sources */,
+				DFEB055229FBAE4B007F7DFD /* AlertViewController.swift in Sources */,
+				DFEB054029FB97F8007F7DFD /* CountryViewModel.swift in Sources */,
+				DF25B79329FB36520060FF6F /* NavigationController.swift in Sources */,
+				DF25B78429FB1F8F0060FF6F /* Constants.m in Sources */,
+				DFEB054929FBAAAF007F7DFD /* UIView+Extensions.swift in Sources */,
+				DFEB054229FB9950007F7DFD /* Country.swift in Sources */,
+				DFEB054729FBA9C8007F7DFD /* CountryTableCell.swift in Sources */,
+				DFEB054529FBA232007F7DFD /* CountryCacheManager.m in Sources */,
+				DF25B78F29FB33190060FF6F /* Data+Extensions.swift in Sources */,
+				DF4DFDD429FAE7790030BBF0 /* API.swift in Sources */,
+				DFEB054D29FBAB2F007F7DFD /* UIView+ConstrainChain.swift in Sources */,
+				DF25B78A29FB31270060FF6F /* NSDictionary+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,11 +786,14 @@
 		};
 		DF4DFD2D29FAC3CF0030BBF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB1F8213EA5DE4F9B0F187C /* Pods-Foap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 5W669BK4JQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foap/Info.plist;
@@ -449,6 +802,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,19 +810,27 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tolu.cc.Foap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Foap/Utilities/Foap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DF4DFD2E29FAC3CF0030BBF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E4DCA9D9BE2F87AD6E819D /* Pods-Foap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 5W669BK4JQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foap/Info.plist;
@@ -477,6 +839,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,14 +847,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tolu.cc.Foap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Foap/Utilities/Foap-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		DF4DFD3029FAC3CF0030BBF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A556592623601BC1FD6F95 /* Pods-FoapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,19 +867,23 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5W669BK4JQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tolu.cc.FoapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Foap";
 			};
 			name = Debug;
 		};
 		DF4DFD3129FAC3CF0030BBF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5471125696C9C171CA80B1 /* Pods-FoapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,49 +891,62 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5W669BK4JQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tolu.cc.FoapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Foap";
 			};
 			name = Release;
 		};
 		DF4DFD3329FAC3CF0030BBF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8B3B829CD626C36FDA4566 /* Pods-Foap-FoapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5W669BK4JQ;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tolu.cc.FoapUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Foap;
 			};
 			name = Debug;
 		};
 		DF4DFD3429FAC3CF0030BBF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5971BBCF561BBA5082BD4A38 /* Pods-Foap-FoapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5W669BK4JQ;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tolu.cc.FoapUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Foap;
 			};
 			name = Release;

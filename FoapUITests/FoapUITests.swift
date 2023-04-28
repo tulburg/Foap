@@ -21,13 +21,39 @@ final class FoapUITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    func testTableLoad() throws {
+        // Test table view loads and can navigate to detailView
+        let app = XCUIApplication()
+        app.launch()
+        
+        let tableView = app.tables.firstMatch
+        XCTAssertTrue(tableView.cells.count > 0)
+        
+        let firstItem = tableView.cells.element.firstMatch
+        firstItem.tap()
+        
+        let detailViewController = app.otherElements["detailViewController"]
+        // Check that the detail view controller is now displayed
+        XCTAssertTrue(detailViewController.exists)
+        
+        // Navigate back to the table view
+        app.navigationBars.buttons.element(boundBy: 0).tap()
 
-    func testExample() throws {
+    }
+
+    func testRefreshTap() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let navigationBar = app.navigationBars.firstMatch
+        let rightButton = navigationBar.buttons.firstMatch
+        XCTAssertTrue(rightButton.exists)
+        rightButton.tap()
+
+        continueAfterFailure = false
     }
 
     func testLaunchPerformance() throws {
